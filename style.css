@@ -1,0 +1,78 @@
+*, *::before, *::after{
+  box-shadow: border-box; 
+  font-family: "Audiowide", sans-serif;
+}
+
+body{
+
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; 
+  height: 100vh;
+  background-color: #333;
+
+}
+
+.container{
+  width: 400px;
+  max-width: 80%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px; 
+}
+
+.container2{
+  width: 900px;
+  height: 500px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px; 
+
+}
+
+.btn-grid{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px; 
+  margin-top: 20px;
+}
+
+.center-btn {
+
+  height: 30px;
+  width: 200px;
+  margin: auto;
+
+}
+
+.btn {
+  background-color: #333;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10 px; 
+  color: white; 
+  outline: none;
+}
+
+.btn2 {
+  background-color: #333;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10 px; 
+  color: white; 
+  outline: none;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  border-color: white;
+}
+
+
